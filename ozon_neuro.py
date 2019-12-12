@@ -1,7 +1,6 @@
 import random
 
-mili = 62.37
-kilometri = 100
+
 
 # enter = input()
 # coef = float(enter)
