@@ -20,20 +20,20 @@ def assert_auto(main_dep, second_dep, learning_rate, accur, epoch):
 		error = second_dep - ( main_dep * coef)
 		if error > 0:
 			coef += learning_rate
-			print(error)
-			print(coef)
+			# print(error)
+			# print(coef)
 			if error < accur:
-				print("our final score")
-				print(coef)
-				return
+				# print("our final score")
+				# print(coef)
+				return coef
 		elif error < 0:
 			coef -= learning_rate
-			print(error)
-			print(coef)
+			# print(error)
+			# print(coef)
 			if error > -accur:
-				print("our final score")
-				print(coef)
-				return
+				# print("our final score")
+				# print(coef)
+				return coef
 		
 
 
