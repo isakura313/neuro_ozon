@@ -1,4 +1,4 @@
-import ozon_neuro as ozn
+from ozon_neuro import assert_auto
 
 mili = 62.37
 kilometri = 100
@@ -15,4 +15,5 @@ enter_epoch = input("enter epoch")
 epoch = int(enter_epoch)
 
 
-ozn.assert_auto(kilometri, mili, lr, accur, epoch)
+
+assert_auto(kilometri, mili, lr, accur, epoch)
